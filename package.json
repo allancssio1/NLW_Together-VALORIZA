@@ -1,0 +1,10 @@
+{
+  "name": "NLW_TOGETHER",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Allan Freitas <allan.cassio1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
