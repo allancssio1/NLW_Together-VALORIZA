@@ -8,7 +8,7 @@ interface IAuthencateRequest {
   password: string
 }
 
-export class AuthencateUserService {
+export class AuthenticateUserService {
   async execute({email, password}: IAuthencateRequest){
     const userRepositories = getCustomRepository(UserRepositories)
 
