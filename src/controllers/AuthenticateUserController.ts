@@ -3,7 +3,7 @@ import { AuthenticateUserService } from "../services/AuthenticateUserService";
 
 
 export class AuthenticateUserController {
-  async hendle(request: Request, response: Response) {
+  async handle(request: Request, response: Response) {
     const {email, password} = request.body
 
     const authenticateUserService = new AuthenticateUserService()
