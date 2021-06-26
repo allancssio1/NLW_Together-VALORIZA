@@ -33,7 +33,7 @@ export class Compliments {
   message: string
 
   @CreateDateColumn()
-  creates_at: Date
+  created_at: Date
 
   constructor(){
     if(!this.id) {
